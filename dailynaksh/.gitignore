@@ -1,0 +1,166 @@
+# VedicDose Git Ignore File
+# Prevents committing sensitive data to GitHub
+
+# ===================================
+# CRITICAL: API KEYS & CREDENTIALS
+# ===================================
+.env
+.env.*
+*.env
+
+# API Keys
+*.key
+*_SECRET*
+credentials.json
+config.json
+
+# Instagram Session
+session.json
+*.session
+
+# ===================================
+# OUTPUT FILES (Large/Generated)
+# ===================================
+output/*.mp4
+output/*.jpg
+output/*.png
+output/*.gif
+output/videos/
+output/images/
+
+# ===================================
+# LOGS (May contain sensitive data)
+# ===================================
+logs/*.log
+*.log
+logs/posting_log.json
+logs/automation.log
+
+# ===================================
+# PYTHON
+# ===================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# ===================================
+# VIRTUAL ENVIRONMENTS
+# ===================================
+venv/
+ENV/
+env/
+.venv
+
+# ===================================
+# JUPYTER NOTEBOOKS
+# ===================================
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# ===================================
+# OS GENERATED FILES
+# ===================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ===================================
+# IDE & EDITORS
+# ===================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# ===================================
+# TEMPORARY FILES
+# ===================================
+*.tmp
+*.temp
+temp/
+tmp/
+
+# ===================================
+# BACKUP FILES
+# ===================================
+*.bak
+*.backup
+*~
+
+# ===================================
+# MEDIA FILES (if large)
+# ===================================
+# Uncomment if you don't want to commit large media
+# *.mp4
+# *.mov
+# *.avi
+# *.mkv
+
+# ===================================
+# DATABASE FILES
+# ===================================
+*.db
+*.sqlite
+*.sqlite3
+
+# ===================================
+# NODE (if using Node.js tools)
+# ===================================
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# ===================================
+# KEEP THESE FILES (Examples/Templates)
+# ===================================
+!.env.example
+!output/.gitkeep
+!logs/.gitkeep

@@ -1,0 +1,24 @@
+# VedicDose Automation Requirements
+# Install with: pip install --break-system-packages -r requirements.txt
+
+# Core Video Generation
+moviepy==2.2.1
+Pillow==11.3.0
+numpy==1.26.4
+
+# Instagram API
+instagrapi==2.1.2
+
+# Environment & Configuration
+python-dotenv==1.0.0
+
+# Optional: AI Content Generation
+google-generativeai==0.3.2
+
+# Optional: Notifications
+requests==2.31.0
+
+# Development Tools (optional)
+pytest==7.4.3
+black==23.12.1
+flake8==7.0.0

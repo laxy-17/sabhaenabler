@@ -1,0 +1,82 @@
+{
+  "1": {
+    "type": "rasi",
+    "title_english": "ARIES",
+    "title_devanagari": "मेष राशि",
+    "subtitle": "Mesha Rasi",
+    "traits": [
+      "Bold & Courageous",
+      "Mars Powered",
+      "Natural Leader"
+    ],
+    "symbol_type": "aries",
+    "emoji": "♈",
+    "stereotype": "impulsive",
+    "tagline": "The Warrior Spirit",
+    "hashtags": "#Aries #MeshaRasi #AriesZodiac"
+  },
+  "2": {
+    "type": "rasi",
+    "title_english": "LEO",
+    "title_devanagari": "सिंह राशि",
+    "subtitle": "Simha Rasi",
+    "traits": [
+      "Confident & Charismatic",
+      "Sun Ruled",
+      "Born Leader"
+    ],
+    "symbol_type": "leo",
+    "emoji": "♌",
+    "stereotype": "attention-seeking",
+    "tagline": "The Royal Heart",
+    "hashtags": "#Leo #SimhaRasi #LeoZodiac"
+  },
+  "3": {
+    "type": "rasi",
+    "title_english": "SAGITTARIUS",
+    "title_devanagari": "धनु राशि",
+    "subtitle": "Dhanu Rasi",
+    "traits": [
+      "Optimistic & Free",
+      "Jupiter Blessed",
+      "Truth Seeker"
+    ],
+    "symbol_type": "sagittarius",
+    "emoji": "♐",
+    "stereotype": "commitment-phobic",
+    "tagline": "The Philosopher",
+    "hashtags": "#Sagittarius #DhanuRasi #SagittariusZodiac"
+  },
+  "4": {
+    "type": "rasi",
+    "title_english": "TAURUS",
+    "title_devanagari": "वृषभ राशि",
+    "subtitle": "Vrishabha Rasi",
+    "traits": [
+      "Stable & Patient",
+      "Venus Blessed",
+      "Creative Soul"
+    ],
+    "symbol_type": "taurus",
+    "emoji": "♉",
+    "stereotype": "stubborn",
+    "tagline": "The Venus Blessed",
+    "hashtags": "#Taurus #VrishabhRasi #TaurusZodiac"
+  },
+  "5": {
+    "type": "rasi",
+    "title_english": "VIRGO",
+    "title_devanagari": "कन्या राशि",
+    "subtitle": "Kanya Rasi",
+    "traits": [
+      "Analytical & Precise",
+      "Mercury Ruled",
+      "Perfectionist"
+    ],
+    "symbol_type": "virgo",
+    "emoji": "♍",
+    "stereotype": "critical",
+    "tagline": "The Healer",
+    "hashtags": "#Virgo #KanyaRasi #VirgoZodiac"
+  }
+}
